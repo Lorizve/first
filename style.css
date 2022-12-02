@@ -30,16 +30,16 @@ nav{
     justify-content: end ;
     align-items: center;
     background: #4F4F4F;
-    position: absolute;
     width: 1470px;
     height: 63px;
    
 }
-li{
+a{
     color: #FFFFFF;
     font-size: 20px;
     text-align: center;
     padding: 2%;
+    text-decoration: none ;
    
 }
 
@@ -56,6 +56,16 @@ li{
     border-radius: 40px;
     margin-top: 100px;
     margin-left: 2%;
+    color: #FFA4A4;
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding: 2%;
+    
+}
+.ost1{
+    display: none;
 }
 
 .st{
@@ -63,7 +73,7 @@ li{
 }
 .ft{
     font-family: 'Roboto Mono';
-    font-style: normal;
+    
     font-weight: 300;
     font-size: 120px;
     line-height: 158px;
@@ -75,12 +85,6 @@ li{
     padding: 2%;
     display: flex;
 }
-.cpdva{
-    background-image:url(images/Ellipse\ 1.png);
-    width: 522px;
-    height: 503px;
-    
-}
 .ob{
     font-family: 'Roboto Mono';
     margin-top: 200px;
@@ -90,7 +94,8 @@ li{
     margin-right: 50px;
     width: 589px;
     height: 500px;
-   
+    color: #4B4D67;
+
     
     background: #8786AC;
     border-radius: 200px;
@@ -155,9 +160,8 @@ li{
     color: #D7D7D7;
     background: #4F4F4F;
     border-radius: 50px;
-}.ura{
-    margin-left: 30px;
 }
+
 footer{
     padding: 2%;
     margin: 2%;
@@ -165,6 +169,9 @@ footer{
 .yur{
     margin-left: 300px;
     
+}
+.ura{
+    margin-left: 30px;
 }
 h3{
     font-family: 'Roboto Mono';
@@ -174,4 +181,176 @@ h3{
     background: #FFA4A4;
     border-radius: 30px;
     border-color: #FFA4A4;
+}
+
+.menu_small_icon {
+    display: none;
+}
+
+.menu-small {
+    display: none;
+    height: 2em;
+}
+
+.menu_small_item {
+    display: none;
+}
+
+.stick {
+    width: 80%;
+    height: 5px;
+    background: black;
+}
+
+
+@media (max-width:650px){
+    .photo{
+        
+        font-family: 'Dancing Script', cursive;
+        font-size: 70px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+       
+    }
+    .menu {
+        display: none;
+    }
+
+    .menu-small {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        background: white;
+        transform: translateX(-100%);
+    }
+
+    .menu_small_item {
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu_small_item:first-child {
+        padding-top: calc(50px + 2em);
+    }
+
+    .menu_small_icon {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        z-index: 1;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        background: #4F4F4F;
+        
+       
+    }
+   
+    a{
+        
+        display: none;
+    }
+    .about{
+        flex-wrap: wrap;
+        margin-right: 70px;
+        
+    }
+    .st{
+        display: none;
+    }
+
+    .ost1{
+        background: #4F4F4F;
+        color: #FFA4A4;
+        font-family: 'PT Serif Caption';
+        font-size: 20px;  
+        padding: 50px;
+        padding-top: 20px;
+        display: block;
+       
+        
+    }
+    .ost{
+        display:none;
+    }
+    .ft{
+        font-family: 'Roboto Mono';
+        
+        font-weight: 300;
+        font-size:  60px;
+        display: block;
+    }
+    .ft1{
+        flex-wrap: wrap;
+    }
+    .ob{
+        font-family: 'PT Serif Caption';
+        margin-bottom: 200px;
+        font-size: 20px;
+        text-align: center;
+        margin-right: 50px;
+        width: 589px;
+        height: 300px;
+        color: #4B4D67;
+        background: #8786AC;
+        border-radius: 0;
+        margin-left: 20px;
+        
+    }
+    .fotzon1{
+        width: 400px;
+        height: 500px;
+    }
+    .ft2{
+        
+        flex-wrap: wrap;
+    }
+    .fotzon2{
+        width: 400px;
+        height: 500px;
+        margin-right: 50px;
+
+    }
+    .r{
+
+        font-family: 'Roboto Mono';
+        margin-bottom: 200px;
+        font-size: 20px;
+        
+        color: #4F5E4E;
+        background: #80B078;
+        border-radius: 0px;
+    }
+    .ft3{
+        flex-wrap: wrap;
+    }
+    .fotzon3{
+        width: 400px;
+        height: 500px;
+        margin-top: 50px;
+    }
+    .ura{
+       display: none;
+    }
+    .yur{
+        width: 500px;
+        height: 500px;
+        margin-right: 200px;
+        margin-left: 0px;
+    }
+    footer{
+        padding: 5%;
+        margin: 0%;
+    }
 }
