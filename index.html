@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <link rel="stylesheet"href="style.css">
+    <script src="anime.min.js"></script>
     <title>Фотостудия</title>
 </head>
 <body>
@@ -12,26 +14,39 @@
         
         <h1 class="photo">Silhoutte Photo Studio</h1>
         <section class="olo">
-            <nav>
+            <div class="container">
+                <nav>
            
-                <li href#about>О студии</li>
-                <li>Фотозоны</li>
-                <li>Поддержка</li>
-    
-            </nav>
-        </section>
+                    <a  class = "scroll" href="#about">О студии</a>
+                    <a  class = "scroll" href="#ft">Фотозоны</a>
+                    <a  class = "scroll" href="#pod">Поддержка</a>
         
-       
+                </nav>
+                <div class="menu_small_icon">
+                    <div class="stick"></div>
+                    <div class="stick"></div>
+                    <div class="stick"></div>
+                </div>
+                <div class="menu-small">
+                   <div class="menu_small_item">О студии</div>
+                     <div class="menu_small_item">Фотозоны</div>
+                    <div class="menu_small_item">Поддержка</div>
+        
+                </div>
+            </div>
+            
+        </section>
     </header>
 
     <main>
-        <h2 class="o">О студии</h2>
-        <section class = "about">
+        
+        <section class = "about" id="about">
             
             <img src="images/image 1.png" alt="Студия" class="st">
-            <p class="ost"></p>
+            <p class="ost">Студия "Силуэт" предоставит Вам красивые фотозоны, для Ваших фотоссесий. Вы можете выбрать ее среди наших 15-ти фотостудий, или же создать свою!За всеми подробностями обращайтесь к нам в директ)</p>
+            <p class="ost1">Студия "Силуэт" предоставит Вам красивые фотозоны, для Ваших фотоссесий. За всеми подробностями обращайтесь к нам в директ)</p>
         </section>
-        <h1 class="ft">Фотозоны</h1>
+        <h1 class="ft" id="ft">Фотозоны</h1>
         <section class="ft1">
             <p class="ob">Фотостудия в готическом стиле отлично подойдет под нетипичные образы</p>
             <img src="images/image 2.png" alt="красивая Фотостудия" class="fotzon1">
@@ -39,9 +54,7 @@
         <section class="ft2">
             <img src="images/image 3.png" alt="" class="fotzon2">
             
-            <p class="r">Фотозона, где
-                вы сами можете 
-                выбрать фон.</p>
+            <p class="r">Фотозона, где вы сами можете  выбрать фон.</p>
         </section>
         <section class="ft3">
             <p class="a">Современная фотозона, в стиле модерн</p>
@@ -49,7 +62,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="pod">
         <img src="images/Frame 8.png" alt="" class="ura">
         <h1 class="ft">Поддержка</h1>
         <img src="images/Rectangle 4.png" alt="" class="yur">
