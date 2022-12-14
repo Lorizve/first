@@ -360,6 +360,7 @@ h3{
     .a{
         margin-top: 00px;
         font-family: 'PT Serif Caption';
+        border-radius: 40px;
     }
     .ura{
        display: none;
