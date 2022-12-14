@@ -103,19 +103,20 @@ a:hover{
     font-size: 50px;
     line-height: 100px;
     text-align: center;
-    margin-right: 50px;
+    margin-left: 80px;
     width: 589px;
     height: 500px;
     color: #4B4D67;
-
-    
     background: #8786AC;
-    border-radius: 200px;
-    
+    border-radius: 100px;
+}
+.ob1{
+    display: none;
 }
 .fotzon1{
     width: 616px;
     height: 893px;
+    margin-left: 40px;
     
 }
 .ft2{
@@ -144,9 +145,8 @@ a:hover{
     width: 452px;
     height: 400px;
     color: #4F5E4E;
-
     background: #80B078;
-    border-radius: 150px;
+    border-radius: 100px;
    
 }
 
@@ -168,18 +168,25 @@ a:hover{
     text-align: center;
     margin-right: 50px;
     width: 424px;
-    height: 390px;
+    height: 350px;
     color: #D7D7D7;
     background: #4F4F4F;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
 footer{
     padding: 2%;
     margin: 2%;
 }
-.yur{
+.ins{
     margin-left: 300px;
+    font-size: 40px; 
+    background-color: #4F4F4F;
+    width: 754px;
+    height: 461px;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    color: #FFA4A4;
     
 }
 .ura{
@@ -266,11 +273,9 @@ h3{
         align-items: center;
         background: #4F4F4F;
         width: 1px;
-       
     }
    
     a{
-        
         display: none;
     }
     .about{
@@ -291,16 +296,12 @@ h3{
         padding: 50px;
         padding-top: 20px;
         display: block;
-       
-        
     }
     .ost{
         display:none;
     }
     .ft{
         font-family: 'Roboto Mono';
-        
-        font-weight: 300;
         font-size:  60px;
         display: block;
     }
@@ -308,22 +309,23 @@ h3{
         flex-wrap: wrap;
     }
     .ob{
+        display: none;
+    }
+    .ob1{
+
         font-family: 'PT Serif Caption';
-        margin-bottom: 200px;
-        font-size: 20px;
-        text-align: center;
-        margin-right: 50px;
-        width: 589px;
-        height: 300px;
+        font-size: 20px;  
+        padding: 50px;
+        padding-top: 20px;
+        display: block;
         color: #4B4D67;
         background: #8786AC;
-        border-radius: 0;
-        margin-left: 20px;
-        
+        margin-bottom: 20px;
     }
     .fotzon1{
         width: 400px;
         height: 500px;
+        margin-left: 20px;
     }
     .ft2{
         margin: 50px;
@@ -337,8 +339,8 @@ h3{
     }
     .r{
 
-        font-family: 'Roboto Mono';
-        margin-bottom: 200px;
+        font-family: 'PT Serif Caption';
+        margin-bottom: 50px;
         font-size: 20px;
         margin-top: 50px;
         color: #4F5E4E;
@@ -357,15 +359,19 @@ h3{
     }
     .a{
         margin-top: 00px;
+        font-family: 'PT Serif Caption';
     }
     .ura{
        display: none;
     }
-    .yur{
+    .ins{
         width: 500px;
         height: 500px;
         margin-right: 200px;
         margin-left: 0px;
+        font-family: 'PT Serif Caption';
+        font-size: 40px; 
+        
     }
     footer{
         padding: 5%;
