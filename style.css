@@ -43,6 +43,10 @@ a{
    
 }
 
+.a1{
+    display: none;
+}
+
 a:hover{
     color: #FFA4A4;
     text-decoration: underline;
@@ -148,6 +152,9 @@ a:hover{
     background: #80B078;
     border-radius: 100px;
    
+}
+.r1{
+    display: none;
 }
 
 .ft3{
@@ -312,7 +319,7 @@ h3{
         display: none;
     }
     .ob1{
-
+        
         font-family: 'PT Serif Caption';
         font-size: 20px;  
         padding: 50px;
@@ -337,8 +344,8 @@ h3{
         margin-right: 40px;
 
     }
-    .r{
-
+    .r1{
+        display: block;
         font-family: 'PT Serif Caption';
         margin-bottom: 50px;
         font-size: 20px;
@@ -346,7 +353,11 @@ h3{
         color: #4F5E4E;
         background: #80B078;
         border-radius: 0px;
-        height: 200px;
+        height: 70px;
+        text-align: center;
+    }
+    .r{
+        display: none;
     }
     .ft3{
         flex-wrap: wrap;
@@ -357,22 +368,33 @@ h3{
         height: 500px;
         margin-top: 50px;
     }
-    .a{
+    .a1{
         margin-top: 00px;
         font-family: 'PT Serif Caption';
-        border-radius: 40px;
+        border-radius: 0px;
+        font-size: 20px;
+        height: 100px;
+        display: block;
+        width: 424px;
+        color: #D7D7D7;
+        background: #4F4F4F;
+        text-align: center;
+        padding: 2%;
+    }
+    .a{
+        display: none;
     }
     .ura{
        display: none;
     }
     .ins{
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 250px;
         margin-right: 200px;
         margin-left: 0px;
         font-family: 'PT Serif Caption';
-        font-size: 40px; 
-        
+        font-size: 30px; 
+        padding: 2%;
     }
     footer{
         padding: 5%;
